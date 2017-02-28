@@ -16,6 +16,7 @@ Route::get('/', function () {
     return view('login_v2');
 });
 
+//Testing
 Auth::routes();
 Route::post('/register', 'HomeController@postRegister');
 
